@@ -1,0 +1,4 @@
+{"level":"info","message":"its problem!"}
+{"level":"info","message":"its problem!"}
+{"level":"error","message":{}}
+{"_message":"User validation failed","errors":{"mail":{"kind":"regexp","message":"Please fill a valid email address","name":"ValidatorError","path":"mail","properties":{"message":"Please fill a valid email address","path":"mail","regexp":{},"type":"regexp","value":"ee"},"value":"ee"},"password":{"kind":"minlength","message":"Path `password` (`ee`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"password","properties":{"message":"Path `password` (`ee`) is shorter than the minimum allowed length (3).","minlength":3,"path":"password","type":"minlength","value":"ee"},"value":"ee"}},"level":"error","message":"User validation failed: mail: Please fill a valid email address, password: Path `password` (`ee`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
